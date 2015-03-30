@@ -110,4 +110,31 @@ nav a:hover {
 .clear-fix {
 	clear: both;
 	line-height: 1px;
-	}
+}
+
+#hero .panel .caption {
+	color: rgba(255,255,255,.65);
+	line-height: 14px;
+}
+
+#hero .panel .caption h3 {
+	color: #fff;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+#hero .panel .caption p {
+	margin-bottom: 5px;
+}
+
+#hero .panel .caption a.cta {
+	font-size: .8em;
+	margin: 0;
+	color: #b8d8f6;
+	background-position: right -101px;
+}
+
+#hero .panel .caption a.cta:hover {
+	color: #fff;
+	background-position: right -151px;
+}

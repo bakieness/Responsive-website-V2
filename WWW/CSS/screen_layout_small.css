@@ -3,7 +3,6 @@
 /* Layout Small Screens */
 
 header {
-	height: 75px;
 	background: url(../images/banner_small.jpg) no-repeat right 0px;
 }
 
@@ -11,7 +10,7 @@ header a.logo {
 	width: 105px;
 	height: 40px;
 	top: 16px;
-	right: 15px;
+	left: 10px;
 	background: url(../images/logo_small.png);
 }
 
@@ -20,21 +19,16 @@ article {
 }
 
 nav {
-	position: static;
-	padding: 10px 0px 10px 0px;
-	background-color: #515673;
+	display: block;
+	padding: 0px;
 }
 
 nav a {
-	color: #a6abc5;
 	display: block;
-	margin: 15px;
+	margin: 0px;
 	padding: 9px;
-	border: 1px solid #a6abc5;
+	border-bottom: 1px solid #f5a06e;
 	background: url(../images/mobile_link_arrow.png) no-repeat right center;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
-	border-radius: 12px;
 }
 
 nav a:hover {
@@ -64,4 +58,13 @@ footer {
 
 body {
 	background-image: none;
+}
+
+#hero {
+	height: 100px;
+	background: url(../images/banner_small.jpg) no-repeat right 0px;	
+}
+
+#hero .panel .caption {
+	display: none;
 }
