@@ -19,7 +19,6 @@ nav {
 	background-color: #a6430a;
 }
 
-
 /* Layout Large Screens (default for older browsers) */
 
 header {
@@ -54,6 +53,7 @@ article {
 
 nav {
 	top: 275px;
+	overflow: hidden;
 }
 
 nav a {
@@ -92,4 +92,8 @@ nav a {
 	width: 45%;
 	background-color: rgba(45,50,79,.85);
 	padding: 25px 20px 15px 35px;
+}
+
+a.mobile_menu {
+	display: none;
 }
